@@ -1,0 +1,43 @@
+
+
+ul#menua, ul#menua ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 15em;
+}
+
+ul#menua a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menua li {
+  margin-top: 1px;
+}
+
+ul#menua li a {
+  background: #333;
+  color: #f7b446;	
+  padding: 0.5em;
+}
+
+ul#menua li a:hover {
+  background: #000;
+  color: #fff;
+  font-weight:bold;
+  padding-left:20px;
+}
+
+ul#menua li ul li a {
+  background: #ccc;
+  color: #222;
+  padding-left: 20px;
+}
+
+ul#menua li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 25px;
+}
+

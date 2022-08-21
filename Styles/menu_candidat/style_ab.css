@@ -1,0 +1,46 @@
+#menub
+{
+text-align:left;
+}
+
+ul#menub, ul#menub ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 15em;
+	color: #FFF;
+}
+
+ul#menub a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menub li {
+  margin-top: 1px;
+}
+
+ul#menub li a {
+	background: #333;
+	color: #FFF;
+	padding: 0.5em;
+}
+
+ul#menub li a:hover {
+  background: #000;
+  color: #fff;
+  font-weight:bold;
+  padding-left:20px;
+}
+
+ul#menub li ul li a {
+  background: #ccc;
+  color: #222;
+  padding-left: 20px;
+}
+
+ul#menub li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #000 solid;
+  padding-left: 25px;
+}
